@@ -19,7 +19,7 @@ echo "Finish installing yarn ... "
 echo "Entering frontend directory ... "
 cd frontend
 npm install
-yarn start
+yarn start &
 
 cd ..
 echo "Exiting frontend directory ... "
