@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.logo {
+  animation: logo-spin infinite 5s ease-in-out;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes logo-spin {
+  0% { transform: rotate(0deg) translate(0, -300%); }
+  50% { transform: rotate(180deg) translate(0, 0); }
+  100% { transform: rotate(360deg) translate(0, -300%); }
+  /* 0% { transform: rotate(0deg); }
+  50% { transform: rotate(180deg) translate(0, 200px); }
+  100% { transform: rotate(360deg); } */
+}
+
+@import '~antd/dist/antd.css';
