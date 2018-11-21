@@ -17,9 +17,21 @@ sudo apt-get update && sudo apt-get install yarn
 echo "Finish installing yarn ... "
 
 echo "Entering frontend directory ... "
-cd /frontend
+cd frontend
 npm install
 yarn start
 
 cd ..
 echo "Exiting frontend directory ... "
+
+echo "Entering backend directory ... "
+cd backend
+sudo DEBIAN_FRONTEND=noninteractive apt install mysql-server -y
+sudo mysql -e "CREATE DATABASE db;"
+sudo mysql db < mySQLcommand.sql
+sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';"
+npm install
+npm run dev
+
+cd ..
+echo "Exiting backend directory ... "
