@@ -23,13 +23,17 @@ class LoginForm extends Component {
         const { getFieldDecorator } = this.props.form;
 
         return (
-            <Form onSubmit={this.handleSubmit} className="login-form" style={{ 
-                position:'fixed',
-                bottom:40,
-                width: 'fit-content', 
-                marginLeft: '40px', 
-                marginRight: '40px'
-             }}>
+            <Form onSubmit={this.handleSubmit} className="login-form" 
+                style={{ 
+                    width: '25vw', 
+                    marginTop: '20vh',
+                    marginBottom: '20vh',
+                    backgroundColor: '#ffffff',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                    border: '5vmin solid #ffffff',
+                    borderRadius: '3vmin',
+            }}>
                 <Form.Item>
                     { getFieldDecorator('userName', {
                         rules: [{ required: true, message: 'Please input your username!' }],
@@ -57,7 +61,7 @@ class LoginForm extends Component {
                         <Checkbox>Remember me</Checkbox>
                     ) }
                     <Link to="/" style={{ float: "right" }}>Forget password?</Link>
-                    <Button type="primary" htmlType="submit" className="login-form-button" style={{ 
+                    <Button type="primary" htmlType="submit" className="login-form-button hover-scale" style={{ 
                         width:'50%',
                         letterSpacing:'0.05em',
                         backgroundColor:'#5f7ee3',
@@ -67,7 +71,7 @@ class LoginForm extends Component {
                         fontSize:'1.3em' }}>
                         Log in
                     </Button>
-                    <Link to="/user/register" style={{ 
+                    <Link to="/" style={{ 
                         float: "right"
                         ,textAlign:'right'
                         }}>

@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 import { message } from 'antd'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Bg from '../images/Ever_logo.png';
+import Bg from '../images/bg.jpeg';
 import Background from '../components/Background';
 import LoginForm from '../components/LoginForm';
 

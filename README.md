@@ -10,12 +10,20 @@ cd ./react-eggjs-starter-kit
 
 ```
 
-#### Develop Mode
+#### Develop Mode 🐈
 ``` shell
 ./runDev.sh
 ```
+_or go to frontend/backend folder to start them separately, by using npm start and npm run dev_
 
-#### Production Mode
+#### Production Mode 🐕
 ``` shell
 ./runProd.sh
 ```
+
+**libraries used**
+
+- [x] React
+- [x] React Router v4
+- [x] Ant Design
+- [x] CSS shake

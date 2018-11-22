@@ -10,11 +10,12 @@ const Background = ({image, opacity, backgroundColor}) => {
                 opacity: opacity, 
                 backgroundPosition: 'center', 
                 backgroundRepeat: 'no-repeat', 
+                backgroundSize: 'cover',
                 height: window.innerHeight + 302,   // height of safari keyboard 
                 width: '100%', 
                 zIndex: -1,
                 position: 'fixed', 
-                bottom: 0 
+                top: '-5vw'
             }}/> 
     )
 }

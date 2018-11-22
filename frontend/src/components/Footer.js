@@ -10,7 +10,7 @@ const Footer = () => {
                 width: 'fit-content', 
                 marginLeft: 'auto', 
                 marginRight: 'auto', 
-                opacity: 0.2,
+                opacity: 0.5,
                 zIndex:0
                 }}>
                 Design by JackLLLLL @ 2018 All rights reserved

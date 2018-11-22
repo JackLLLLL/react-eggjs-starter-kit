@@ -35,7 +35,7 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <Switch>
-                    <Route exact path="/home" component={HomePage} key="homepage"/>
+                    <Route exact path="/(|home)" component={HomePage} key="homepage"/>
                     <Route exact path="/user/login" component={LoginPage} key="loginpage"/>
                     <Route component={NoMatchPage}/>
                 </Switch>

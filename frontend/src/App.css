@@ -21,6 +21,10 @@
   font-size: large;
 }
 
+.hover-scale:hover {
+  transform: scale(1.25);
+}
+
 @keyframes logo-spin {
   0% { transform: rotate(0deg) translate(0, -300%); }
   50% { transform: rotate(180deg) translate(0, 0); }
@@ -31,3 +35,4 @@
 }
 
 @import '~antd/dist/antd.css';
+@import '~csshake/dist/csshake.min.css';
