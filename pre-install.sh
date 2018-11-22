@@ -19,7 +19,6 @@ echo ""
 echo "Entering frontend directory ... "
 cd frontend
 yarn install
-yarn start &
 cd ..
 echo "Exiting frontend directory ... "
 echo ""
@@ -30,6 +29,5 @@ sudo mysql -e "CREATE DATABASE db;"
 sudo mysql db < mySQLcommand.sql
 sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';"
 yarn install
-yarn run dev
 cd ..
 echo "Exiting backend directory ... "

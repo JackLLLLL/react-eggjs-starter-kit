@@ -7,6 +7,7 @@
 ``` shell
 git clone https://github.com/JackLLLLL/react-eggjs-starter-kit.git
 cd ./react-eggjs-starter-kit
+./pre-install.sh
 
 ```
 
@@ -21,9 +22,18 @@ _or go to frontend/backend folder to start them separately, by using npm start a
 ./runProd.sh
 ```
 
-**libraries used**
+**packages used**
 
 - [x] React
 - [x] React Router v4
 - [x] Ant Design
-- [x] CSS shake
+- [x] CSShake
+- [ ] Countup.js
+- [ ] RandomColor
+- [ ] React Pose
+
+- [x] Eggjs
+- [x] Eggjs-cors
+- [x] Eggjs-jwt
+- [x] Eggjs-mysql
+- [x] MySQL

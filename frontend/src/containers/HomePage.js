@@ -19,7 +19,7 @@ const HomePage = () => {
             }}>
                 React Eggjs Starter Kit
             </div>
-            <img className="shake-chunk shake-constant" style={{ width: '15vw', marginLeft: '25vw' }} src={Fish}/>
+            <img className="shake-chunk shake-constant" alt="fish" style={{ width: '15vw', marginLeft: '25vw' }} src={Fish}/>
             
             <Background image={Bg}/>
             <Footer/>
